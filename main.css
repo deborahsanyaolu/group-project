@@ -1,0 +1,109 @@
+body {
+    background-image: url("background\ image.jpg");
+    background-size: cover;
+    animation-name: example;
+    animation-duration: 8s;
+  }
+  
+  @keyframes example {
+    from {background-image: url("background\ image.jpg")}
+    to {background-image: url(htmlpic.jpg);}
+  }
+
+.logoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.container {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.btn {
+    transition: transform .7s ease-in-out;
+}
+
+.btn:hover {
+    transform: rotate(360deg);
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 red, 0 6px 20px 0 red;
+  }
+  
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid orange;
+}
+
+.button1:hover {
+    background-color: orange;
+    color: white;
+}
+
+.button2 {
+    border-radius: 4px;
+    background-color: powderblue;
+    color: black;
+    border: 2px solid purple;
+}
+
+.button2:hover {
+    background-color: purple;
+    color: white;
+}
+
+.button3 {
+    border-radius: 8px;
+    background-color: blue;
+    color: black;
+    border: 2px solid yellow;
+}
+
+.button3:hover {
+    background-color: yellow;
+    color: white;
+}
+
+.button4 {
+    border-radius: 50px;
+    background-color: pink;
+    color: black;
+    border: 2px solid green;
+}
+
+.button4:hover{
+    background-color: green;
+    color: white;
+}
+
+.left {    
+    height: 200px;
+    position: relative;   
+}
+
+.left p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50);
+}
